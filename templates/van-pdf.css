@@ -10,6 +10,9 @@ img {
 
 .hero-image {
 	-webkit-mask: url(../images/blob.svg) no-repeat;
-	-webkit-mask-size: 223vw 854vw;
-	-webkit-mask-position: -55vw -432vw;
+	-webkit-mask-size: 208vw 850vw;
+	-webkit-mask-position: -61vw -415vw;
+	mask: url(../images/blob.svg) no-repeat;
+	mask-size: 208vw 850vw;
+	mask-position: -61vw -415vw;
 }
