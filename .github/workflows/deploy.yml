@@ -32,7 +32,7 @@ jobs:
           REMOTE_HOST: ${{ secrets.DEPLOYMENT_SERVER_IP }}
           # Remote user
           REMOTE_USER: ${{ secrets.DEPLOYMENT_SSH_USERNAME }}
-          # Target directory in the format of `sites/${domain}/files/wp-content/...`
+          # Target directory in the format of `files/wp-content/...`
           TARGET: ${{ secrets.DEPLOYMENT_TARGET_FOLDER }}
           # An array of folder to exclude
           EXCLUDE: node_modules, .git
