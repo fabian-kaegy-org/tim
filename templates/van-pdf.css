@@ -9,5 +9,6 @@ img {
 }
 
 .hero-image {
+	-webkit-mask: url(../images/blob.svg);;
 	mask: url(../images/blob.svg);;
 }
