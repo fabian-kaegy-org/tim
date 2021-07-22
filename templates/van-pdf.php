@@ -21,7 +21,7 @@
 			<h1>VW T5 Pläne</h1>
 			<img src="<?php echo esc_url( get_template_directory_uri() . '/images/van.jpg' ); ?>" alt="" />
 
-			<img src="<?php echo esc_url( get_template_directory_uri() . '/images/van-pdf-mockup.png' ); ?>" alt="" />
+			<img height="300" width="500" src="<?php echo esc_url( get_template_directory_uri() . '/images/van-pdf-mockup.png' ); ?>" alt="" />
 
 			<a href="<?php echo esc_url( get_post_meta( get_the_ID(), 'pdf_url', true ) ); ?>" download>Download</a>
 		</div>
