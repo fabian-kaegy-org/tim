@@ -9,5 +9,5 @@ img {
 }
 
 .hero-image {
-	mask: url(images/blob.svg);;
+	mask: url(../images/blob.svg);;
 }
