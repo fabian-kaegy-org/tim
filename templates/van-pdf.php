@@ -18,7 +18,7 @@
 
 	<body <?php body_class(); ?>>
 		<div id="page" class="site">
-			<h1>Hello World!</h1>
+			<h1>Hi Bubs</h1>
 		</div>
 	</body>
 </html>
