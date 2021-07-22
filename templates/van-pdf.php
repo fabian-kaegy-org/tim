@@ -18,7 +18,7 @@
 
 	<body <?php body_class(); ?>>
 		<div id="page" class="site">
-			<h1>Hi Bubs</h1>
+			<h1>VW T5 Pläne</h1>
 		</div>
 	</body>
 </html>
