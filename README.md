@@ -1,1 +1,1 @@
-# tim
+# WordPress Theme for [tim-kaegy.com](https://tim-kaegy.com)
