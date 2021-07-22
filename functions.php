@@ -21,7 +21,7 @@ function enqueue_frontend_assets() {
 		'8.0.1'
 	);
 
-	if ( is_page_template( '/templates/van-pdf.php' ) ) {
+	if ( is_page_template( 'templates/van-pdf' ) ) {
 		wp_enqueue_style(
 			'van-pdf-styles',
 			get_template_directory_uri() . '/templates/van-pdf.css',
