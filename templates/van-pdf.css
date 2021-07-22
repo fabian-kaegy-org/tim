@@ -7,3 +7,7 @@ img {
 	height: auto;
 	object-fit: contain;
 }
+
+.hero-image {
+	mask: url(images/hero-mask.svg);;
+}
