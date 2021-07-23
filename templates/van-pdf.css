@@ -23,7 +23,7 @@ img {
 	mask-position: -61vw -415vw;
 }
 
-.wp-block-button__link {
+.button__link {
 	background: var(--color-orange);
 	color: var(--color-white);
 	padding: 1rem 2rem;
