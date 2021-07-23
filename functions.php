@@ -18,8 +18,6 @@ add_filter( 'jetpack_implode_frontend_css', '__return_false', 99 );
 function enqueue_frontend_assets() {
 
 	wp_dequeue_script( 'jquery' );
-	wp_dequeue_style( 'wp-block-library' );
-	wp_dequeue_style( 'wp-block-library-theme' );
 	wp_dequeue_style( 'jetpack_css' );
 	wp_dequeue_script( 'wp-mediaelement' );
 	wp_dequeue_style( 'wp-mediaelement' );
@@ -31,12 +29,16 @@ function enqueue_frontend_assets() {
 		'8.0.1'
 	);
 
-	// if ( is_page_template( 'templates/van-pdf' ) ) {
-		wp_enqueue_style(
-			'van-pdf-styles',
-			get_template_directory_uri() . '/templates/van-pdf.css',
-			[ 'normalize.css' ],
-			filemtime( get_template_directory() . '/templates/van-pdf.css' )
-		);
-	// };
+	wp_register_style(
+		'van-pdf-styles',
+		get_template_directory_uri() . '/templates/van-pdf.css',
+		[ 'normalize.css' ],
+		filemtime( get_template_directory() . '/templates/van-pdf.css' )
+	);
+
+	if ( is_page_template( 'templates/van-pdf.php' ) ) {
+		wp_dequeue_style( 'wp-block-library' );
+		wp_dequeue_style( 'wp-block-library-theme' );
+		wp_enqueue_style( 'van-pdf-styles' );
+	};
 }
