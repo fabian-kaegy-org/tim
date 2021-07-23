@@ -20,7 +20,7 @@
 		<div id="page" class="site">
 			<img class="hero-image" src="<?php echo esc_url( get_template_directory_uri() . '/images/van.jpg' ); ?>" alt="" />
 
-			<h1><span>VWT5</span><br/>Pläne</h1>
+			<h1 class="page-title"><span class="page-title__highlight">VWT5</span><br/>Buspläne</h1>
 
 			<p>Ich hoffe mit den folgenden Plänen und Materiallisten kann ich dir bei der Umsetzung deines Bus-Projekts helfen und dir einiges an Arbeit sparen!</p>
 

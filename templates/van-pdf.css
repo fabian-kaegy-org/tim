@@ -55,6 +55,7 @@ img {
 	color: var(--color-orange);
 	font-weight: 700;
 	font-size: 4.5rem;
+	text-transform: uppercase;
 }
 
 .page-title__highlight {
