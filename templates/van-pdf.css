@@ -36,9 +36,11 @@ img {
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 1.5rem;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .button__link:hover,
 .button__link:focus {
 	background: var(--color-orange-darker);
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
