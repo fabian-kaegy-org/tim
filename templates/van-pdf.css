@@ -27,12 +27,15 @@ img {
 
 .hero-image {
 	-webkit-mask: url(../images/blob.svg) no-repeat;
-	-webkit-mask-size: 208vw 850vw;
-	-webkit-mask-position: -61vw -415vw;
+	-webkit-mask-size: 300% 300%;
+	-webkit-mask-position: 65% 100%;
 	mask: url(../images/blob.svg) no-repeat;
-	mask-size: 208vw 850vw;
-	mask-position: -61vw -415vw;
+	mask-size: 300% 300%;
+	mask-position: 65% 100%;
 	width: 100%;
+	max-height: 50vh;
+	object-fit: cover;
+	object-position: 50% 25%;
 }
 
 .button__link {
