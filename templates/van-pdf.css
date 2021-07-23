@@ -76,7 +76,7 @@ img {
 }
 
 .site-content {
-	max-width: 90%;
+	max-width: min(90%, 600px);
 	margin-left: auto;
 	margin-right: auto;
 }
