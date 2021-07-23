@@ -4,8 +4,8 @@
 	--orange-hs: 25, 57%;
 	--orange-l: 50%;
 
-	--color-light-orange: #f9ac72;
 	--color-orange: hsl(var(--orange-hs), var(--orange-l));
+	--color-orange-lighter: hsl(var(--orange-hs), calc(var(--orange-l) + 10%));
 	--color-orange-darker: hsl(var(--orange-hs), calc(var(--orange-l) - 5%));
 }
 
@@ -72,7 +72,7 @@ img {
 }
 
 .page-title__highlight {
-	color: var(--color-light-orange);
+	color: var(--color-orange-lighter);
 	font-size: 0.75em;
 	font-style: italic;
 }
