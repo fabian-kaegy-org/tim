@@ -28,7 +28,7 @@
 
 				<p>Ich hoffe mit den folgenden Plänen und Materiallisten kann ich dir bei der Umsetzung deines Bus-Projekts helfen und dir einiges an Arbeit sparen!</p>
 
-				<img class="mockup" height="450" src="<?php echo esc_url( get_template_directory_uri() . '/images/van-pdf-mockup.png' ); ?>" alt="" />
+				<img class="mockup" height="450" width="450" src="<?php echo esc_url( get_template_directory_uri() . '/images/van-pdf-mockup.jpg' ); ?>" alt="" />
 
 				<a class="button__link" href="<?php echo esc_url( get_post_meta( get_the_ID(), 'pdf_url', true ) ); ?>" download target="_blank">Download</a>
 			</main>
