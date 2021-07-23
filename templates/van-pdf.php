@@ -5,7 +5,8 @@
  * @package Tim
  */
 
-$page_title = wp_strip_all_tags( get_the_title() );
+$page_title   = wp_strip_all_tags( get_the_title() );
+$download_url = get_post_meta( get_the_ID(), 'pdf_url', true );
 
 ?>
 
@@ -32,7 +33,9 @@ $page_title = wp_strip_all_tags( get_the_title() );
 
 				<img class="mockup" height="450" width="450" src="<?php echo esc_url( get_template_directory_uri() . '/images/van-pdf-mockup.jpg' ); ?>" alt="" />
 
-				<a class="button__link" href="<?php echo esc_url( get_post_meta( get_the_ID(), 'pdf_url', true ) ); ?>" download target="_blank">Download</a>
+				<?php if ( $download_url ) : ?>
+					<a class="button__link" href="<?php echo esc_url( $download_url ); ?>" download target="_blank">Download</a>
+				<?php endif; ?>
 			</main>
 
 		</div>
