@@ -40,6 +40,7 @@ img {
 	display: block;
 	width: 150px;
 	text-align: center;
+	transition: all 0.3s ease;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
