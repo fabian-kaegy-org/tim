@@ -26,7 +26,7 @@ function enqueue_frontend_assets() {
 			'van-pdf-styles',
 			get_template_directory_uri() . '/templates/van-pdf.css',
 			[ 'normalize.css' ],
-			'1.0.0'
+			filemtime( get_template_directory() . '/templates/van-pdf.css' )
 		);
 	// };
 }
