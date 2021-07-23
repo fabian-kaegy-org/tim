@@ -14,6 +14,10 @@ add_action( 'init', __NAMESPACE__ . '\enqueue_frontend_assets' );
  */
 function enqueue_frontend_assets() {
 
+	wp_dequeue_script( 'jquery' );
+	wp_dequeue_style( 'wp-block-library' );
+	wp_dequeue_style( 'jetpack_css' );
+
 	wp_register_style(
 		'normalize.css',
 		get_template_directory_uri() . '/normalize.css',
