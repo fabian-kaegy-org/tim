@@ -5,7 +5,7 @@
 	--orange-l: 50%;
 
 	--color-orange: hsl(var(--orange-hs), var(--orange-l));
-	--color-orange-lighter: hsl(var(--orange-hs), calc(var(--orange-l) + 10%));
+	--color-orange-lighter: hsl(var(--orange-hs), calc(var(--orange-l) + 8%));
 	--color-orange-darker: hsl(var(--orange-hs), calc(var(--orange-l) - 5%));
 }
 
