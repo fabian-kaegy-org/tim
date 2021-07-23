@@ -38,6 +38,7 @@ img {
 	font-size: 1.5rem;
 }
 
-.button_link:hover {
+.button_link:hover,
+.button_link:focus {
 	background: var(--color-orange-darker);
 }
