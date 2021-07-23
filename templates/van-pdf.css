@@ -81,7 +81,7 @@ img {
 }
 
 .site-content {
-	max-width: min(90%, 600px);
+	max-width: min(90%, 500px);
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -94,6 +94,11 @@ img {
 }
 
 @media only screen and (min-width: 1000px) {
+
+	:root {
+		font-size: 24px;
+	}
+
 	.site {
 		display: flex;
 		flex-direction: row;
