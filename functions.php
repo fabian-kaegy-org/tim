@@ -11,6 +11,14 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_frontend_assets', 99
 
 add_filter( 'jetpack_sharing_counts', '__return_false', 99 );
 add_filter( 'jetpack_implode_frontend_css', '__return_false', 99 );
+add_action( 'after_setup_theme', __NAMESPACE__ . '\add_theme_supports' );
+
+/**
+ * add theme supports
+ */
+function add_theme_supports() {
+	add_theme_support( 'post-thumbnails' );
+}
 
 /**
  * Enqueue frontend assets
