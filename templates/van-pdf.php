@@ -11,7 +11,8 @@
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		<title>VWT5 Buspläne</title>
 		<meta property="og:title" content="VWT5 Buspläne" />
 		<meta property="og:image" content="<?php echo esc_url( get_template_directory_uri() . '/images/van.jpg' ); ?>" />
 
