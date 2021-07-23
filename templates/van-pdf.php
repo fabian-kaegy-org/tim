@@ -24,9 +24,7 @@
 
 			<img height="200" width="500" src="<?php echo esc_url( get_template_directory_uri() . '/images/van-pdf-mockup.png' ); ?>" alt="" />
 
-			<div class="wp-block-button">
-				<a class="wp-block-button__link" href="<?php echo esc_url( get_post_meta( get_the_ID(), 'pdf_url', true ) ); ?>" download>Download</a>
-			</div>
+			<a class="button__link" href="<?php echo esc_url( get_post_meta( get_the_ID(), 'pdf_url', true ) ); ?>" download>Download</a>
 		</div>
 		<?php wp_footer(); ?>
 	</body>
