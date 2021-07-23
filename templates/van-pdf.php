@@ -26,5 +26,6 @@
 
 			<a href="<?php echo esc_url( get_post_meta( get_the_ID(), 'pdf_url', true ) ); ?>" download>Download</a>
 		</div>
+		<?php wp_footer(); ?>
 	</body>
 </html>
