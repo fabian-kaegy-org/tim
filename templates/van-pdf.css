@@ -80,3 +80,9 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.mockup {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
