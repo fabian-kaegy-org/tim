@@ -12,6 +12,20 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_frontend_assets', 99
 add_filter( 'jetpack_sharing_counts', '__return_false', 99 );
 add_filter( 'jetpack_implode_frontend_css', '__return_false', 99 );
 add_action( 'after_setup_theme', __NAMESPACE__ . '\add_theme_supports' );
+\add_filter(
+	'allowed_block_types_all',
+	function ( $allowed_blocks, $context ) {
+
+		if ( 'templates/van-pdf.php' === get_page_template_slug( $context->post->ID ) ) {
+			return [ 'core/paragraph' ];
+		}
+
+		return $allowed_blocks;
+	},
+	20,
+	2
+);
+
 
 /**
  * add theme supports
