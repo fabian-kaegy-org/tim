@@ -20,7 +20,9 @@
 		<div id="page" class="site">
 			<img class="hero-image" src="<?php echo esc_url( get_template_directory_uri() . '/images/van.jpg' ); ?>" alt="" />
 
-			<h1>VW T5 Pläne</h1>
+			<h1><span>VWT5</span><br/>Pläne</h1>
+
+			<p>Ich hoffe mit den folgenden Plänen und Materiallisten kann ich dir bei der Umsetzung deines Bus-Projekts helfen und dir einiges an Arbeit sparen!</p>
 
 			<img height="200" width="500" src="<?php echo esc_url( get_template_directory_uri() . '/images/van-pdf-mockup.png' ); ?>" alt="" />
 
