@@ -92,3 +92,24 @@ img {
 	width: 80%;
 	wax-width: 600px;
 }
+
+@media only screen and (min-width: 1000px) {
+	.site {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.hero-image {
+		height: 100vh;
+		max-height: 100vh;
+		width: 50%;
+		-webkit-mask-size: 183vw 167vw;
+		-webkit-mask-position: -134vw 73%;
+		mask-size: 183vw 167vw;
+		mask-position: -134vw 73%;
+	}
+
+	.site-content {
+		align-self: center;
+	}
+}
