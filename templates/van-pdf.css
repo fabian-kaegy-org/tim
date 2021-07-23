@@ -1,7 +1,12 @@
 :root {
 	--color-white: #ffffff;
+
+	--orange-hs: 25, 57%;
+	--orange-l: 50%;
+
 	--color-light-orange: #f9ac72;
-	--color-orange: #c87236;
+	--color-orange: hsl(var(--orange-hs), var(--orange-l));
+	--color-orange-darker: hsl(var(--orange-hs), calc(var(--orange-l) - 5%));
 }
 
 * {
@@ -31,4 +36,8 @@ img {
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 1.5rem;
+}
+
+.button_link:hover {
+	background: var(--color-orange-darker);
 }
