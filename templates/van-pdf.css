@@ -69,6 +69,7 @@ img {
 .page-title__highlight {
 	color: var(--color-light-orange);
 	font-size: 0.75em;
+	font-style: italic;
 }
 
 .site-content {
