@@ -7,7 +7,7 @@
 
 namespace fabiankaegy\tim;
 
-add_action( 'init', __NAMESPACE__ . '\enqueue_frontend_assets' );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_frontend_assets', 99 );
 
 /**
  * Enqueue frontend assets
@@ -16,6 +16,7 @@ function enqueue_frontend_assets() {
 
 	wp_dequeue_script( 'jquery' );
 	wp_dequeue_style( 'wp-block-library' );
+    wp_dequeue_style( 'wp-block-library-theme' );
 	wp_dequeue_style( 'jetpack_css' );
 
 	wp_register_style(
