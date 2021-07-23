@@ -21,7 +21,7 @@
 
 	<body <?php body_class(); ?>>
 		<div id="page" class="site">
-			<img width="800" class="hero-image" src="<?php echo esc_url( get_template_directory_uri() . '/images/van.jpg' ); ?>" alt="" />
+			<img width="360" height="240" class="hero-image" src="<?php echo esc_url( get_template_directory_uri() . '/images/van.jpg' ); ?>" alt="" />
 
 			<main class="site-content">
 				<h1 class="page-title"><span class="page-title__highlight">VWT5</span><br/>Buspläne</h1>
