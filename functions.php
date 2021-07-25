@@ -58,9 +58,31 @@ function enqueue_frontend_assets() {
 		filemtime( get_template_directory() . '/templates/van-pdf.css' )
 	);
 
+	wp_register_style(
+		'bus-plan-interaktiv-styles',
+		get_template_directory_uri() . '/templates/bus-plan-interaktiv.css',
+		[ 'normalize.css' ],
+		filemtime( get_template_directory() . '/templates/bus-plan-interaktiv.css' )
+	);
+
+	wp_register_script(
+		'bus-plan-interaktiv-js',
+		get_template_directory_uri() . '/templates/bus-plan-interaktiv.js',
+		[],
+		filemtime( get_template_directory() . '/templates/bus-plan-interaktiv.js' ),
+		true
+	);
+
 	if ( is_page_template( 'templates/van-pdf.php' ) ) {
 		wp_dequeue_style( 'wp-block-library' );
 		wp_dequeue_style( 'wp-block-library-theme' );
 		wp_enqueue_style( 'van-pdf-styles' );
+	};
+
+	if ( is_page_template( 'templates/bus-plan-interaktiv.php' ) ) {
+		wp_dequeue_style( 'wp-block-library' );
+		wp_dequeue_style( 'wp-block-library-theme' );
+		wp_enqueue_style( 'bus-plan-interaktiv-styles' );
+		wp_enqueue_script( 'bus-plan-interaktiv-js' );
 	};
 }
