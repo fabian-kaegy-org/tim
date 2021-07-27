@@ -43,7 +43,7 @@ $page_title = wp_strip_all_tags( get_the_title() );
 					Hier siehst du exemplarisch ein paar Platzhalter der Gegenstände, für die ich extra Fächer gebaut habe, sodass sie einen festen Platz im Bus haben werden:
 				</p>
 				<figure>
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/van-plan-interaktiv/items.svg" alt="">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/van-plan-interaktiv/items.svg" alt="" width="517" height="150">
 				</figure>
 				<p>
 					Aber auch für kleinere Dinge wie Klamotten, Lebensmittel und Hygieneartikel habe ich von Anfang an schon feste Plätze im Bus eingeplant.
@@ -52,7 +52,7 @@ $page_title = wp_strip_all_tags( get_the_title() );
 			<section class="section-aufteilung" id="aufteilung">
 				<h2>1. Aufteilung</h2>
 				<figure>
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/van-plan-interaktiv/gesamt-top.svg" alt="">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/van-plan-interaktiv/gesamt-top.svg" alt="" width="517" height="835">
 					<figcaption>
 						<b>Abb.1:</b> Allgemeine Aufteilung und Außenmaße der Möbel von oben. Die gestrichelten Formen stellen Auszüge oder Klappen dar.
 					</figcaption>

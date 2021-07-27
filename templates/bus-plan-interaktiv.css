@@ -35,15 +35,19 @@ section:nth-child(even) {
 	background: var(--color-eggshell);
 }
 
-figure img {
+figure img,
+figure svg {
 	background-color: var(--color-eggshell);
+	fill: var(--color-eggshell);
 	padding: 1rem;
 	width: 100%;
 	height: auto;
 }
 
-section:nth-child(even) figure img {
+section:nth-child(even) figure img,
+section:nth-child(even) figure svg {
 	background-color: var(--color-white);
+	fill: var(--color-white);
 }
 
 figure {
